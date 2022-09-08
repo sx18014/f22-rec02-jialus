@@ -5,19 +5,19 @@ interface PolarPoint {
     computeY: () => number
 }
 
-function newPolarPoint (len: number, angle: number): PolarPoint {
-    return {
-        len,
-        angle,
+// function newPolarPoint (len: number, angle: number): PolarPoint {
+//     return {
+//         len,
+//         angle,
 
-        computeX: function (): number {
-            return Math.round(len * Math.cos(angle))
-        },
+//         computeX: function (): number {
+//             return Math.round(len * Math.cos(angle))
+//         },
 
-        computeY: function (): number {
-            return Math.round(len * Math.sin(angle))
-        }
-    }
-}
+//         computeY: function (): number {
+//             return Math.round(len * Math.sin(angle))
+//         }
+//     }
+// }
 
-export { PolarPoint, newPolarPoint }
+// export { PolarPoint, newPolarPoint }

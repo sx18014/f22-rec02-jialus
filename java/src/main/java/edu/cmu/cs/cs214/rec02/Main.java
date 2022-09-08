@@ -8,7 +8,7 @@ public class Main {
         PolarPoint point2 = new PolarPoint(4, Math.PI);
         
         Line line = new Line(point1, point2);
-        
+
         line.draw();
     }
 }
